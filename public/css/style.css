@@ -1,9 +1,4 @@
-TYLE CSS
 
-
-body {
-  background: white;
-}
 h1{
   text-align: center;
   color: #00C600;
@@ -44,6 +39,15 @@ h3{
   height: 100px; 
   text-align: center;
   background: white;
+}
+p{
+  word-wrap: break-word;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#bod {
+   text-indent: 50px;
 }
 
 .text{
