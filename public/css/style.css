@@ -1,0 +1,53 @@
+TYLE CSS
+
+
+body {
+  background: white;
+}
+h1{
+  text-align: center;
+  color: #00C600;
+}
+h3{
+  text-align: center;
+  color: #000000
+}
+
+.random{
+  text-align: center;
+  width: 20%;
+  position: fixed;
+  left: 65.5%;
+  top: 37%;
+  border-radius: 10px;
+  margin: 0 auto;
+  border: 10px solid;
+  border-color: #00C600;
+  box-shadow: 3px 3px 3px #888888;
+  height: 100px;  
+  background: white;
+  border-style: outset;
+}
+
+
+.custom{
+  border-radius: 10px;
+  position: fixed;
+  width: 20%;
+  left: 15.5%;
+  top: 37%;
+  margin: 0 auto; 
+  border: 10px solid; 
+  border-color: #00C600;
+  border-style: outset;
+  box-shadow: 3px 3px 3px #888888;
+  height: 100px; 
+  text-align: center;
+  background: white;
+}
+
+.text{
+  color: #FF7F00; 
+  font-family: Helvetica;
+  
+}
