@@ -1,8 +1,8 @@
   class Note
  
   
-  attr_reader :child_name, :writer_name, :pot_num, :pot_length, :reason
-  attr_writer :child_name, :writer_name, :pot_num, :pot_length, :reason
+    attr_reader :child_name, :writer_name, :pot_num1, :pot_time1, :symp1, :reciever
+    attr_writer :child_name, :writer_name, :reciever
   def initialize(child_name, writer_name, reciever)
     @child_name = child_name.capitalize
     @writer_name = writer_name.capitalize
@@ -15,6 +15,16 @@
     @pot_time1 = @pot_time.sample
   
   end
+    def pot_num1(num)
+      @pot_num1 = num
+    end
+    def pot_time1(num)
+      @pot_time1 = num
+    end
+    def symp1(num)
+      @symp1 = num
+    end
+    
  
   def show
     return "Dear #{@reciever}, <br> <p id = 'bod'>I am sorry to inform you that #{@child_name} will be missing #{@pot_num1} #{@pot_time1} of school due to #{@symp1}. #{@child_name}'s condition is worse than expected and needs to stay home and rest. #{@child_name} will heal faster with rest and medication. #{@child_name} should stay home to prevent this disease from spreading to other children. #{@child_name} should be back in approximately a couple of #{@pot_time1}. <br> Best Regards, <br>  Dr. #{@writer_name}. </p>"
